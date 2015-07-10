@@ -30,7 +30,7 @@ header {
   background-size: 100%;
   background-position: top;
   margin-top: 48px;
-  height: 200px;
+  height: 140px;
 }
 
 header .intro-text {
@@ -224,6 +224,10 @@ h1{
   margin: 15px;
   padding: 15px;
   height: 100%;
+}
+
+.quotes{
+  padding-top: 15px;
 }
 
 .quote{
