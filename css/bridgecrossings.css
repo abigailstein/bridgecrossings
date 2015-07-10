@@ -11,7 +11,6 @@ body {
 }
 
 header {
-  background-image: url('../images/penwritingmed.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -20,6 +19,18 @@ header {
   background-size: cover;
   -o-background-size: cover;
   margin-bottom: 10px;
+}
+
+.frontheader {
+  background-image: url('../images/penwritingmed2.jpg');
+}
+
+.interiorheader {
+  background-image: url('../images/interiorheader.jpg');
+  background-size: 100%;
+  background-position: top;
+  margin-top: 48px;
+  height: 200px;
 }
 
 header .intro-text {
@@ -39,9 +50,16 @@ header .intro-text .intro-heading {
 }
 
 @media (min-width: 768px) {
-  header {
-    background-image: url('../images/penwritingwide.jpg')
+  .frontheader {
+    background-image: url('../images/penwritingwide5.jpg')
   }
+
+  /*.interiorheader {
+    background-image: url('../images/interiorheader.jpg');
+    background-size: 100%;
+    background-position: top;
+    margin-top: 48px;
+  }*/
 
   header .intro-text {
     text-align: right;
@@ -61,9 +79,17 @@ header .intro-text .intro-heading {
 }
 
 @media (min-width: 1200px) {
-  header {
-    background-image: url('../images/penwritingwide.jpg');
+  .frontheader {
+    background-image: url('../images/penwritingwide4.jpg');
   }
+
+  /*.interiorheader {
+    background-image: url('../images/interiorheader.jpg');
+    background-size: 100%;
+    background-position: left;
+    margin-top: 48px;
+  }*/
+
   header .intro-text {
     text-align: right;
     padding-top: 500px;
@@ -78,6 +104,11 @@ header .intro-text .intro-heading {
     padding: 15px;
     background: rgba(255, 255, 255, 0.5);
   }
+}
+
+h1{
+  font-family: 'Merriweather', serif;
+  text-align: center;
 }
 
 .pic {
@@ -193,4 +224,22 @@ header .intro-text .intro-heading {
   margin: 15px;
   padding: 15px;
   height: 100%;
+}
+
+.quote{
+  background-color: #f1e8e1;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 6px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.quote2{
+  background-color: #c7b2a4;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 6px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
 }
