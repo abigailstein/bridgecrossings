@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background-image: url('../images/penwriting.jpg');
+  background-image: url('../images/penwritingmed.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -19,6 +19,7 @@ header {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  margin-bottom: 10px;
 }
 
 header .intro-text {
@@ -38,6 +39,10 @@ header .intro-text .intro-heading {
 }
 
 @media (min-width: 768px) {
+  header {
+    background-image: url('../images/penwritingwide.jpg')
+  }
+
   header .intro-text {
     text-align: right;
     padding-top: 250px;
@@ -57,7 +62,7 @@ header .intro-text .intro-heading {
 
 @media (min-width: 1200px) {
   header {
-    background-image: url('../images/penwriting.jpg');
+    background-image: url('../images/penwritingwide.jpg');
   }
   header .intro-text {
     text-align: right;
@@ -75,34 +80,117 @@ header .intro-text .intro-heading {
   }
 }
 
-.pic{
+.pic {
   text-align: center;
-  padding: 10px;
+  padding: 25px;
   background-color: #8E4585;
-  }
+  border-radius: 9px;
+}
 
-.text{
+.text {
   color: black;
   padding: 10px;
   font-family: 'Lato', sans-serif;
+  font-size: 18px;
   background-color: #D3B2EA;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 9px;
 }
 
-.table{
-  border-spacing: 10px;
+.tdpic {
+  background-color: #8E4585;
+  width: 350px;
+  margin: 15px;
+  border-radius: 9px;
+}
+
+.tdtext {
+  background-color: #D3B2EA;
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 9px;
+}
+
+.front2bg {
+  background-image: url('../images/stripes2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  margin: 20px;
+  border-radius: 9px;
+}
+
+.row1 {
+  margin: 15px;
+  margin-right: 10px;
+  background-color: #CFCFCF;
+  border-radius: 4px;
+  padding: 10px;
+  color: black;
+  font-family: 'Lato', sans-serif;
+}
+
+.row2 {
+  margin: 15px;
+  margin-right: 10px;
+  background-color: #CFCFCF;
+  border-radius: 4px;
+  padding: 10px;
+  color: black;
+  font-family: 'Lato', sans-serif;
+}
+
+.row3 {
+  margin: 15px;
+  margin-right: 10px;
+  background-color: #CFCFCF;
+  border-radius: 4px;
+  padding: 10px;
+  color: black;
+  font-family: 'Lato', sans-serif;
+}
+
+.poem {
+  text-align: center;
+  /*margin: 15px;*/
+  margin-left: 0px;
+  border-radius: 4px;
+  background-color: white;
+  background-image: url('../images/bkbridgecrop.jpg');
+  background-size: cover;
+  /*padding: 10px;*/
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  height: 100%;
+  /*text-shadow: 0px 0px 3px #000;*/
+  text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
+}
+
+.fronttable {
+  border-spacing: 20px 10px;
   border-collapse: separate;
 }
 
-.table1{
-  background-color: #8E4585;
+.fronttable2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-spacing: 20px 0px;
+  border-collapse: separate;
 }
 
-.table2{
-  background-color: #D3B2EA;
-  vertical-align: middle;
+.about-td {
+  width: 50%;
+  margin: 15px;
+  padding: 15px;
+  height: 100%;
 }
 
-
-td{
-  vertical-align: bottom;
+.poem-td {
+  width: 50%;
+  margin: 15px;
+  padding: 15px;
+  height: 100%;
 }
