@@ -18,7 +18,7 @@ header {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  margin-bottom: 10px;
+  /*margin-bottom: 10px;*/
 }
 
 .frontheader {
@@ -109,6 +109,13 @@ header .intro-text .intro-heading {
 h1{
   font-family: 'Merriweather', serif;
   text-align: center;
+}
+
+h2{
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  font-size: 24px;
+  font-style: italic;
 }
 
 .pic {
@@ -226,11 +233,11 @@ h1{
   height: 100%;
 }
 
-.quotes{
+.quotes {
   padding-top: 15px;
 }
 
-.quote{
+.quote {
   background-color: #f1e8e1;
   padding: 15px;
   margin: 10px;
@@ -239,11 +246,115 @@ h1{
   font-family: 'Lato', sans-serif;
 }
 
-.quote2{
+.quote2 {
   background-color: #c7b2a4;
   padding: 15px;
   margin: 10px;
   border-radius: 6px;
   text-align: center;
   font-family: 'Lato', sans-serif;
+}
+
+.ginsberg {
+  background-color: #D3B2EA;
+  color: black;
+  margin: 0 auto;
+  padding-top: 10px;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+/*
+*
+* CSS for making text appear when hovering over image
+*
+*/
+
+#mainwrapper {
+  font: 10pt 'Lato', sans-serif;
+  height: 162px;
+  margin: 0 auto;
+  text-align: center;
+  width: 348px;
+}
+
+#mainwrapper .box {
+    border: 5px solid #fff;
+    cursor: pointer;
+    height: 162px;
+    float: left;
+    margin: 0px;
+    position: relative;
+    overflow: hidden;
+    width: 348px;
+    -webkit-box-shadow: 1px 1px 1px 1px #ccc;
+    -moz-box-shadow: 1px 1px 1px 1px #ccc;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    border-radius: 6px;
+
+}
+
+#mainwrapper .box img {
+    position: absolute;
+    left: 0;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+
+#mainwrapper .box .caption {
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    color: #fff;
+    z-index: 100;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    left: 0;
+}
+
+#mainwrapper .box .fade-caption, #mainwrapper .box .scale-caption {
+    opacity: 0;
+    width: 348px;
+    height: 162px;
+    text-align: left;
+    padding: 15px;
+}
+
+#mainwrapper .box:hover .fade-caption {
+    opacity: 1;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.gins1 {
+    background-color: white;
+    padding: 10px;
+    height: 110%;
+    border-radius: 6px;
+}
+
+.ginstable {
+  margin: 0 auto;
+  border-spacing: 0px 0px;
+  border-collapse: separate;
+  width: 100%;
+  height: 162px;
+  padding: 10px;
+}
+
+.gins-td-1 {
+  padding: 10px;
+  padding-left: 0px;
+  border-radius: 6px;
+}
+
+.gins-td-2 {
+  height: 100%;
+  /*padding: 10px;*/
+  border-radius: 6px;
 }
