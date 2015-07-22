@@ -1,0 +1,384 @@
+/*
+ * plum: #8E4585
+ * lavender: #D3B2EA
+ * yellow: #FFFF99
+ * black: #000000
+ * white: #FFFFFF
+*/
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  /*margin-bottom: 10px;*/
+}
+
+.navbar{
+  margin: 0 auto;
+}
+
+.frontheader {
+  background-image: url('../images/penwritingmed2.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 1000px;
+}
+
+.interiorheader {
+  background-image: url('../images/interiorheader.jpg');
+  background-size: cover;
+  background-position: left center;
+  margin-top: 48px;
+  height: 140px;
+  margin: 0 auto;
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.container{
+  width: 100%;
+  padding: 0px;
+}
+
+.page-header{
+  padding: 10px;
+}
+
+.submitted{
+  padding-left: 10px;
+}
+
+header .intro-text {
+  padding-top: 210px;
+  padding-bottom: 210px;
+  min-height: 420px;
+}
+
+header .intro-text .intro-heading {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  margin: 0px;
+  padding: 4px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+@media (min-width: 768px) {
+  .frontheader {
+    background-image: url('../images/penwritingwide5.jpg')
+  }
+
+  /*.interiorheader {
+    background-image: url('../images/interiorheader.jpg');
+    background-size: 100%;
+    background-position: top;
+    margin-top: 48px;
+  }*/
+
+  header .intro-text {
+    text-align: right;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    min-height: 500px;
+  }
+  header .intro-text .intro-heading {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    margin: 0px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.5);
+  }
+}
+
+@media (min-width: 1200px) {
+  .frontheader {
+    background-image: url('../images/penwritingwide4.jpg');
+  }
+
+  /*.interiorheader {
+    background-image: url('../images/interiorheader.jpg');
+    background-size: 100%;
+    background-position: left;
+    margin-top: 48px;
+  }*/
+
+  header .intro-text {
+    text-align: right;
+    padding-top: 500px;
+    min-height: 1000px;
+  }
+  header .intro-text .intro-heading {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size:33px;
+    line-height: 33px;
+    margin: 0px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.5);
+  }
+}
+
+h1{
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+h2{
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.pic {
+  text-align: center;
+  padding: 25px;
+  background-color: #8E4585;
+  border-radius: 9px;
+}
+
+.text {
+  color: black;
+  padding: 10px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  background-color: #D3B2EA;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 9px;
+}
+
+.tdpic {
+  background-color: #8E4585;
+  width: 350px;
+  margin: 15px;
+  border-radius: 9px;
+}
+
+.tdtext {
+  background-color: #D3B2EA;
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 9px;
+}
+
+.front2bg {
+  background-image: url('../images/stripes2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  margin: 20px;
+  border-radius: 9px;
+}
+
+.row1 {
+  margin: 15px;
+  margin-right: 10px;
+  background-color: #CFCFCF;
+  border-radius: 4px;
+  padding: 10px;
+  color: black;
+  font-family: 'Lato', sans-serif;
+}
+
+.row2 {
+  margin: 15px;
+  margin-right: 10px;
+  background-color: #CFCFCF;
+  border-radius: 4px;
+  padding: 10px;
+  color: black;
+  font-family: 'Lato', sans-serif;
+}
+
+.row3 {
+  margin: 15px;
+  margin-right: 10px;
+  background-color: #CFCFCF;
+  border-radius: 4px;
+  padding: 10px;
+  color: black;
+  font-family: 'Lato', sans-serif;
+}
+
+.poem {
+  text-align: center;
+  /*margin: 15px;*/
+  margin-left: 0px;
+  border-radius: 4px;
+  background-color: white;
+  background-image: url('../images/bkbridgecrop.jpg');
+  background-size: cover;
+  /*padding: 10px;*/
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  height: 100%;
+  /*text-shadow: 0px 0px 3px #000;*/
+  text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
+}
+
+.fronttable {
+  border-spacing: 20px 10px;
+  border-collapse: separate;
+}
+
+.fronttable2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-spacing: 20px 0px;
+  border-collapse: separate;
+}
+
+.about-td {
+  width: 50%;
+  margin: 15px;
+  padding: 15px;
+  height: 100%;
+}
+
+.poem-td {
+  width: 50%;
+  margin: 15px;
+  padding: 15px;
+  height: 100%;
+}
+
+.quotes {
+  padding-top: 15px;
+}
+
+.quote {
+  background-color: #f1e8e1;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 6px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.quote2 {
+  background-color: #c7b2a4;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 6px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.ginsberg {
+  background-color: #D3B2EA;
+  color: black;
+  margin: 0 auto;
+  padding-top: 10px;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+/*
+*
+* CSS for making text appear when hovering over image
+*
+*/
+
+#mainwrapper {
+  font: 10pt 'Lato', sans-serif;
+  height: 162px;
+  margin: 0 auto;
+  text-align: center;
+  width: 348px;
+}
+
+#mainwrapper .box {
+    border: 5px solid #fff;
+    cursor: pointer;
+    height: 162px;
+    float: left;
+    margin: 0px;
+    position: relative;
+    overflow: hidden;
+    width: 348px;
+    -webkit-box-shadow: 1px 1px 1px 1px #ccc;
+    -moz-box-shadow: 1px 1px 1px 1px #ccc;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    border-radius: 6px;
+
+}
+
+#mainwrapper .box img {
+    position: absolute;
+    left: 0;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+
+#mainwrapper .box .caption {
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    color: #fff;
+    z-index: 100;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    left: 0;
+}
+
+#mainwrapper .box .fade-caption, #mainwrapper .box .scale-caption {
+    opacity: 0;
+    width: 348px;
+    height: 162px;
+    text-align: left;
+    padding: 15px;
+}
+
+#mainwrapper .box:hover .fade-caption {
+    opacity: 1;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.gins1 {
+    background-color: white;
+    padding: 10px;
+    height: 110%;
+    border-radius: 6px;
+}
+
+.ginstable {
+  margin: 0 auto;
+  border-spacing: 0px 0px;
+  border-collapse: separate;
+  width: 100%;
+  height: 162px;
+  padding: 10px;
+}
+
+.gins-td-1 {
+  padding: 10px;
+  padding-left: 0px;
+  border-radius: 6px;
+}
+
+.gins-td-2 {
+  height: 100%;
+  /*padding: 10px;*/
+  border-radius: 6px;
+}

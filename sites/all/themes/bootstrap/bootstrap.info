@@ -144,4 +144,3 @@ version = "7.x-3.0"
 core = "7.x"
 project = "bootstrap"
 datestamp = "1384678107"
-
