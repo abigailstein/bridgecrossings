@@ -24,6 +24,7 @@ regions[page_bottom]    = 'Page bottom'
 ;; Stylesheets
 ;;;;;;;;;;;;;;;;;;;;;
 
+stylesheets[all][] = css/bootstrap.min.css
 stylesheets[all][] = css/style.css
 stylesheets[all][] = css/bridgecrossings.css
 
@@ -40,21 +41,22 @@ stylesheets[all][] = css/bridgecrossings.css
 ; ;; Scripts
 ; ;;;;;;;;;;;;;;;;;;;;;
 ;
-; scripts[] = 'bootstrap/js/affix.js'
-; scripts[] = 'bootstrap/js/alert.js'
-; scripts[] = 'bootstrap/js/button.js'
-; scripts[] = 'bootstrap/js/carousel.js'
-; scripts[] = 'bootstrap/js/collapse.js'
-; scripts[] = 'bootstrap/js/dropdown.js'
-; scripts[] = 'bootstrap/js/modal.js'
-; scripts[] = 'bootstrap/js/tooltip.js'
-; scripts[] = 'bootstrap/js/popover.js'
-; scripts[] = 'bootstrap/js/scrollspy.js'
-; scripts[] = 'bootstrap/js/tab.js'
-; scripts[] = 'bootstrap/js/transition.js'
+scripts[] = 'js/bootstrap.min.js'
+;scripts[] = 'bootstrap/js/affix.js'
+;scripts[] = 'bootstrap/js/alert.js'
+;scripts[] = 'bootstrap/js/button.js'
+;scripts[] = 'bootstrap/js/carousel.js'
+;scripts[] = 'bootstrap/js/collapse.js'
+;scripts[] = 'bootstrap/js/dropdown.js'
+;scripts[] = 'bootstrap/js/modal.js'
+;scripts[] = 'bootstrap/js/tooltip.js'
+;scripts[] = 'bootstrap/js/popover.js'
+;scripts[] = 'bootstrap/js/scrollspy.js'
+;scripts[] = 'bootstrap/js/tab.js'
+;scripts[] = 'bootstrap/js/transition.js'
 ;
 ; ; Disable BootstrapCDN if using Bootstrap source files in your sub-theme.
-; settings[bootstrap_cdn] = ''
+settings[bootstrap_cdn] = ''
 
 
 ; ;-------------------------

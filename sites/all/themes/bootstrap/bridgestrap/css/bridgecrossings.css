@@ -6,6 +6,15 @@
  * white: #FFFFFF
 */
 
+/*DRUPAL PAGE*/
+
+/* fix for admin toolbar incompatibility with jquery 1.7+ */
+
+/*.navbar-fixed-top {
+  top: 32px;
+  z-index: 499;
+}*/
+
 body {
   overflow-x: hidden;
 }
@@ -130,16 +139,25 @@ header .intro-text .intro-heading {
   }
 }
 
-h1{
+a:link, a:visited, a:hover, a:active {
+  color: #000000;
+}
+
+h1 {
   font-family: 'Merriweather', serif;
   text-align: center;
 }
 
-h2{
+h2 {
   font-family: 'Merriweather', serif;
   text-align: center;
   font-size: 24px;
   font-style: italic;
+}
+
+h3 {
+  font-family: 'Merriweather', serif;
+  font-size: 14px;
 }
 
 .pic {
@@ -297,7 +315,7 @@ h2{
 #mainwrapper {
   font: 10pt 'Lato', sans-serif;
   height: 162px;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   text-align: center;
   width: 348px;
 }
@@ -315,7 +333,32 @@ h2{
     -moz-box-shadow: 1px 1px 1px 1px #ccc;
     box-shadow: 1px 1px 1px 1px #ccc;
     border-radius: 6px;
+}
 
+#mainwrapper .boxx {
+    height: 466px;
+}
+
+#mainwrapper .box3 {
+    height: 270px;
+    width: 414px;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+}
+
+#mainwrapper .box4 {
+    height: 339px;
+    width: 220px;
+    margin-left: 100px;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+}
+
+#mainwrapper .box5 {
+    height: 272px;
+    width: 410px;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
 }
 
 #mainwrapper .box img {
@@ -345,8 +388,29 @@ h2{
     opacity: 0;
     width: 348px;
     height: 162px;
-    text-align: left;
+    text-align: center;
     padding: 15px;
+    position: absolute;
+    top: 0px;
+}
+
+#mainwrapper .box .fade-caption2, #mainwrapper .box .scale-caption {
+    height: 466px;
+}
+
+#mainwrapper .box .fade-caption3, #mainwrapper .box .scale-caption {
+    height: 270px;
+    width: 414px;
+}
+
+#mainwrapper .box .fade-caption4, #mainwrapper .box .scale-caption {
+    height: 339px;
+    width: 220px;
+}
+
+#mainwrapper .box .fade-caption5, #mainwrapper .box .scale-caption {
+    height: 272px;
+    width: 410px;
 }
 
 #mainwrapper .box:hover .fade-caption {
@@ -358,8 +422,35 @@ h2{
 .gins1 {
     background-color: white;
     padding: 10px;
-    height: 110%;
     border-radius: 6px;
+}
+
+.gins2 {
+  background-color: white;
+  padding: 10px;
+  height: 100%;
+  border-radius: 6px;
+}
+
+.gins3 {
+  background-color: white;
+  padding: 10px;
+  border-radius: 6px;
+  height: 162px;
+}
+
+.gins4 {
+  background-color: white;
+  padding: 10px;
+  border-radius: 6px;
+  height: 242px;
+}
+
+.gins5 {
+  background-color: white;
+  padding: 10px;
+  border-radius: 6px;
+  height: 276px;
 }
 
 .ginstable {
@@ -367,8 +458,14 @@ h2{
   border-spacing: 0px 0px;
   border-collapse: separate;
   width: 100%;
-  height: 162px;
   padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 162px;
+}
+
+table {
+  margin: 0 auto;
 }
 
 .gins-td-1 {
@@ -378,7 +475,135 @@ h2{
 }
 
 .gins-td-2 {
-  height: 100%;
+  /*height: 100%;*/
   /*padding: 10px;*/
   border-radius: 6px;
+}
+
+.ginstable2 {
+  margin: 0 auto;
+  border-spacing: 0px 0px;
+  border-collapse: separate;
+  height: 162px;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.gins-td-3 {
+  padding: 10px;
+  padding-left: 0px;
+  border-radius: 6px;
+  width: 60%;
+}
+
+.gins-td-4 {
+  height: 426px;
+  /*padding: 10px;*/
+  border-radius: 6px;
+  width: 40%;
+}
+
+.book {
+  background-color: #f1e8e1;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+.booktd1 {
+  width: 50%;
+  text-align: center;
+}
+
+.booktd2 {
+  width: 50%;
+  text-align: center;
+  height: 100%;
+  font-size: 20px;
+}
+
+.finding {
+  background-color: #D3B2EA;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  padding: 30px;
+}
+
+.findingpoem {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.photoview {
+  text-align: center;
+  background-color: #f1e8e1;
+  padding: 50px;
+}
+
+.garden {
+  background-color: #f1e8e1;
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  padding: 10px;
+}
+
+.forloveofwords {
+  background-color: #8E4585;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 32px;
+  color: white;
+  padding: 25px;
+}
+
+.successfailure {
+  background-color: #D3B2EA;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  padding: 50px;
+  padding-bottom: 100px;
+}
+
+.lostpoems {
+  background-color: #D3B2EA;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.training {
+  background-color: #D3B2EA;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.beyondwords {
+  background-color: #8E4585;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: black;
+}
+
+.beyonddiv {
+  background-color: #FFFFFF;
+  height: 250px;
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+
+.links {
+  background-color: #D3B2EA;
+  font-family: 'Lato', sans-serif;
+  padding: 50px;
+}
+
+.links2 {
+  text-align: center;
 }

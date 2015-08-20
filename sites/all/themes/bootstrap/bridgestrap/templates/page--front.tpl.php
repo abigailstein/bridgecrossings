@@ -97,34 +97,30 @@
                 <a href="#page-top"></a>
               </li>
               <li>
-                <a class="page-scroll" href="index.html">bridgeXngs</a>
+                <a class="page-scroll" href="">bridgeXngs</a>
               </li>
               <li>
-                <a class="page-scroll" href="quotes.html">Quotes</a>
-              </li>
-              <li>
-                <a class="page-scroll" href="ginsberg.html">Allen Ginsberg</a>
-              </li>
-              <li>
-                <a class="page-scroll" href="poetrycenter.html">About Lila Weisberger</a>
+                <a class="page-scroll" href="">About Lila Weisberger</a>
               </li>
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" type="button" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <a href="#" class="dropdown-toggle" type="button" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">
                   Links
                   <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#"><i>The Healing Fountain</i></a></li>
+                    <li><a href="thehealingfountain"><i>The Healing Fountain</i></a></li>
                     <li><a href="#">Poem Puzzle</a></li>
                     <li><a href="#">Notes from the Journal of a Poetry Therapist</a></li>
-                    <li><a href="#">Photographic View</a></li>
-                    <li><a href="#">In Search of a Lost Poem</a></li>
-                    <li><a href="#">Finding the Right Poem</a></li>
-                    <li><a href="#">Training</a></li>
-                    <li><a href="#">For Love of Words</a></li>
-                    <li><a href="#">Success/Failure</a></li>
+                    <li><a href="photographicview">Photographic View</a></li>
+                    <li><a href="lostpoems">In Search of a Lost Poem</a></li>
+                    <li><a href="findingtherightpoem">Finding the Right Poem</a></li>
+                    <li><a href="quotes">Quotes</a></li>
+                    <li><a href="training">Training</a></li>
+                    <li><a href="wordswordswords">For Love of Words</a></li>
+                    <li><a href="successfailure">Success/Failure</a></li>
                     <li><a href="#">Lila's Poem of the Month Selection</a></li>
-                    <li><a href="#">Beyond Words</a></li>
-                    <li><a href="#">More Links</a></li>
+                    <li><a href="allenginsberg">Allen Ginsberg: Going, Going, Gone!</a></li>
+                    <li><a href="beyondwords">Beyond Words</a></li>
+                    <li><a href="links">More Links</a></li>
                   </ul>
                 </li>
             </ul>
@@ -180,6 +176,8 @@
     <?php if (!empty($action_links)): ?>
       <ul class="action-links"><?php print render($action_links); ?></ul>
     <?php endif; ?>
+
+<section id="front1">
 
     <!-- FIRST ROW -->
     <div class="row">
