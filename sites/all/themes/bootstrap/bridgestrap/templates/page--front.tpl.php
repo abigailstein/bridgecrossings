@@ -97,7 +97,7 @@
                 <a href="#page-top"></a>
               </li>
               <li>
-                <a class="page-scroll" href="">bridgeXngs</a>
+                <a class="page-scroll" href="#">bridgeXngs</a>
               </li>
               <li>
                 <a class="page-scroll" href="moreabout">About Lila Weisberger</a>
@@ -184,7 +184,7 @@
       <div class="col-xs-12 col-sm-12 col-md-12 hidden-lg hidden-xl">
         <br>
         <div class="pic">
-          <img src="/bridgecrossings/sites/all/themes/bootstrap/bridgestrap/images/about1.png">
+          <img src="sites/all/themes/bootstrap/bridgestrap/images/about1.png">
         </div>
         <br>
         <div class="text">
@@ -196,7 +196,7 @@
           <tr>
             <td class="tdpic">
                 <div class="pic">
-                  <img src="/bridgecrossings/sites/all/themes/bootstrap/bridgestrap/images/about1.png">
+                  <img src="sites/all/themes/bootstrap/bridgestrap/images/about1.png">
                 </div>
             </td>
             <td class="tdtext">
@@ -214,7 +214,7 @@
       <div class="col-xs-12 col-sm-12 col-md-12 hidden-lg hidden-xl">
         <br>
         <div class="pic">
-          <img src="/bridgecrossings/sites/all/themes/bootstrap/bridgestrap/images/about2.jpg">
+          <img src="sites/all/themes/bootstrap/bridgestrap/images/about2.jpg">
         </div>
         <br>
         <div class="text">
@@ -231,7 +231,7 @@
           </td>
           <td class="tdpic">
               <div class="pic">
-                <img src="/bridgecrossings/sites/all/themes/bootstrap/bridgestrap/images/about2.jpg">
+                <img src="sites/all/themes/bootstrap/bridgestrap/images/about2.jpg">
               </div>
           </td>
         </tr>
@@ -244,7 +244,7 @@
       <div class="col-xs-12 col-sm-12 col-md-12 hidden-lg hidden-xl">
         <br>
         <div class="pic">
-          <img src="/bridgecrossings/sites/all/themes/bootstrap/bridgestrap/images/about3.jpg">
+          <img src="sites/all/themes/bootstrap/bridgestrap/images/about3.jpg">
         </div>
         <br>
         <div class="text">
@@ -256,7 +256,7 @@
         <tr>
           <td class="tdpic">
               <div class="pic">
-                <img src="/bridgecrossings/sites/all/themes/bootstrap/bridgestrap/images/about3.jpg">
+                <img src="sites/all/themes/bootstrap/bridgestrap/images/about3.jpg">
               </div>
           </td>
           <td class="tdtext">

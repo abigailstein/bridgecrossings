@@ -97,7 +97,7 @@
                 <a href="#page-top"></a>
               </li>
               <li>
-                <a class="page-scroll" href="/bridgecrossings">bridgeXngs</a>
+                <a class="page-scroll" href="/">bridgeXngs</a>
               </li>
               <li>
                 <a class="page-scroll" href="moreabout">About Lila Weisberger</a>

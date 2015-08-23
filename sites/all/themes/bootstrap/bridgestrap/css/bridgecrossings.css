@@ -38,15 +38,16 @@ header {
   position: relative;
 }
 
+/*small*/
 .frontheader {
-  background-image: url('../images/penwritingmed2.jpg');
+  background-image: url('../images/penwritingwide4small.jpg');
   background-size: cover;
   background-position: center center;
-  height: 1000px;
+  height: 666px;
 }
 
 .interiorheader {
-  background-image: url('../images/interiorheader.jpg');
+  background-image: url('../images/interiorheadersmall.jpg');
   background-size: cover;
   background-position: left center;
   margin-top: 48px;
@@ -88,16 +89,9 @@ header .intro-text .intro-heading {
 
 @media (min-width: 768px) {
   .frontheader {
-    background-image: url('../images/penwritingwide5.jpg')
+    background-image: url('../images/penwritingwide4small.jpg');
+    height: 1000px;
   }
-
-  /*.interiorheader {
-    background-image: url('../images/interiorheader.jpg');
-    background-size: 100%;
-    background-position: top;
-    margin-top: 48px;
-  }*/
-
   header .intro-text {
     text-align: right;
     padding-top: 250px;
@@ -118,15 +112,49 @@ header .intro-text .intro-heading {
 @media (min-width: 1200px) {
   .frontheader {
     background-image: url('../images/penwritingwide4.jpg');
+    height: 1000px;
   }
+  header .intro-text {
+    text-align: right;
+    padding-top: 500px;
+    min-height: 1000px;
+  }
+  header .intro-text .intro-heading {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size:33px;
+    line-height: 33px;
+    margin: 0px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.5);
+  }
+}
 
-  /*.interiorheader {
+@media (min-width: 768px) {
+  .interiorheader {
+    background-image: url('../images/interiorheader.jpg')
+  }
+  header .intro-text {
+    text-align: right;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    min-height: 500px;
+  }
+  header .intro-text .intro-heading {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    margin: 0px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.5);
+  }
+}
+
+@media (min-width: 1200px) {
+  .interiorheader {
     background-image: url('../images/interiorheader.jpg');
-    background-size: 100%;
-    background-position: left;
-    margin-top: 48px;
-  }*/
-
+  }
   header .intro-text {
     text-align: right;
     padding-top: 500px;
@@ -694,7 +722,7 @@ table {
   color: black;
 }
 
-table#poempuzzle th, tr {
+.poempuzzle table, .poempuzzle tr, .poempuzzle th {
   border-spacing: 20px;
   padding: 15px;
   border-collapse: collapse;
