@@ -100,7 +100,7 @@
                 <a class="page-scroll" href="/bridgecrossings">bridgeXngs</a>
               </li>
               <li>
-                <a class="page-scroll" href="">About Lila Weisberger</a>
+                <a class="page-scroll" href="moreabout">About Lila Weisberger</a>
               </li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" type="button" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
@@ -108,19 +108,19 @@
                   <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     <li><a href="thehealingfountain"><i>The Healing Fountain</i></a></li>
-                    <li><a href="#">Poem Puzzle</a></li>
-                    <li><a href="#">Notes from the Journal of a Poetry Therapist</a></li>
+                    <li><a href="poempuzzle">Poem Puzzle</a></li>
+                    <li><a href="journalexperiment">Notes from the Journal of a Poetry Therapist</a></li>
                     <li><a href="photographicview">Photographic View</a></li>
                     <li><a href="lostpoems">In Search of a Lost Poem</a></li>
                     <li><a href="findingtherightpoem">Finding the Right Poem</a></li>
-                    <li><a href="quotes">Quotes</a></li>
+                    <li><a href="quotes">Favorite Quotes</a></li>
                     <li><a href="training">Training</a></li>
                     <li><a href="wordswordswords">For Love of Words</a></li>
-                    <li><a href="successfailure">Success/Failure</a></li>
-                    <li><a href="#">Lila's Poem of the Month Selection</a></li>
-                    <li><a href="allenginsberg">Allen Ginsberg: Going, Going, Gone!</a></li>
+                    <li><a href="successfailure">Success/Failure: Day/Night</a></li>
+                    <!-- <li><a href="">Lila's Poem of the Month Selection</a></li> -->
+                    <li><a href="allenginsberg">Allen Ginsberg</a></li>
                     <li><a href="beyondwords">Beyond Words</a></li>
-                    <li><a href="links">More Links</a></li>
+                    <li><a href="links">Moving Along and Linking</a></li>
                   </ul>
                 </li>
             </ul>
