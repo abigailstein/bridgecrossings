@@ -40,10 +40,10 @@ header {
 
 /*small*/
 .frontheader {
-  background-image: url('../images/penwritingwide4small.jpg');
+  background-image: url('../images/penwriting768.jpg');
   background-size: cover;
   background-position: center center;
-  height: 666px;
+  height: 400px;
 }
 
 .interiorheader {
@@ -89,8 +89,7 @@ header .intro-text .intro-heading {
 
 @media (min-width: 768px) {
   .frontheader {
-    background-image: url('../images/penwritingwide4small.jpg');
-    height: 1000px;
+    background-image: url('../images/penwriting768.jpg');
   }
   header .intro-text {
     text-align: right;
@@ -111,7 +110,7 @@ header .intro-text .intro-heading {
 
 @media (min-width: 1200px) {
   .frontheader {
-    background-image: url('../images/penwritingwide4.jpg');
+    background-image: url('../images/penwriting1920.jpg');
     height: 1000px;
   }
   header .intro-text {
