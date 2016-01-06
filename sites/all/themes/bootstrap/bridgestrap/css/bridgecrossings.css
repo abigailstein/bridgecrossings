@@ -1,5 +1,6 @@
 /*
  * plum: #8E4585
+ * dark plum: #4E2545
  * lavender: #D3B2EA
  * yellow: #FFFF99
  * black: #000000
@@ -7,6 +8,15 @@
 */
 
 /*DRUPAL PAGE*/
+
+.frontlinks {
+  padding-top: 24px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #4e2545;
+}
 
 .frontbg {
   margin-left: 0px;

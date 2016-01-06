@@ -186,6 +186,41 @@
         <?php endif; ?>
 
         <section id="front1">
+          <!-- front links for medium and large only -->
+          <div class="hidden-xs hidden-sm col-md-12 hidden-lg hidden-xl">
+            <div class="frontlinks">
+              <a href="thehealingfountain"><i>The Healing Fountain</i></a> &#8226;
+              <a href="poempuzzle">Poem Puzzle</a> &#8226;
+              <a href="journalexperiment">Notes from the Journal of a Poetry Therapist</a><br />
+              <a href="photographicview">Photographic View</a> &#8226;
+              <a href="lostpoems">In Search of a Lost Poem</a> &#8226;
+              <a href="findingtherightpoem">Finding the Right Poem</a><br />
+              <a href="quotes">Favorite Quotes</a> &#8226;
+              <a href="training">Training</a> &#8226;
+              <a href="wordswordswords">For Love of Words</a> &#8226;
+              <a href="successfailure">Success/Failure: Day/Night</a><br />
+              <a href="allenginsberg">Allen Ginsberg</a> &#8226;
+              <a href="beyondwords">Beyond Words</a> &#8226;
+              <a href="links">Moving Along and Linking</a>
+            </div>
+          </div>
+          <div class="hidden-xs hidden-sm hidden-md col-lg-12 col-xl-12">
+            <div class="frontlinks">
+              <a href="thehealingfountain"><i>The Healing Fountain</i></a> &#8226;
+              <a href="poempuzzle">Poem Puzzle</a> &#8226;
+              <a href="journalexperiment">Notes from the Journal of a Poetry Therapist</a> &#8226;
+              <a href="photographicview">Photographic View</a><br />
+              <a href="lostpoems">In Search of a Lost Poem</a> &#8226;
+              <a href="findingtherightpoem">Finding the Right Poem</a> &#8226;
+              <a href="quotes">Favorite Quotes</a> &#8226;
+              <a href="training">Training</a> &#8226;
+              <a href="wordswordswords">For Love of Words</a><br />
+              <a href="successfailure">Success/Failure: Day/Night</a> &#8226;
+              <a href="allenginsberg">Allen Ginsberg</a> &#8226;
+              <a href="beyondwords">Beyond Words</a> &#8226;
+              <a href="links">Moving Along and Linking</a>
+            </div>
+          </div>
 
           <!-- FIRST ROW -->
           <div class="row">
@@ -276,8 +311,26 @@
               </table>
             </div>
           </div>
-
         </section>
+
+        <!-- front links for small only -->
+        <div class="col-xs-12 col-sm-12 hidden-md hidden-lg hidden-xl">
+          <div class="frontlinks">
+            <a href="thehealingfountain">The Healing Fountain</a><br />
+            <a href="poempuzzle">Poem Puzzle</a><br />
+            <a href="journalexperiment">Notes from the Journal of a Poetry Therapist</a><br />
+            <a href="photographicview">Photographic View</a><br />
+            <a href="lostpoems">In Search of a Lost Poem</a><br />
+            <a href="findingtherightpoem">Finding the Right Poem</a><br />
+            <a href="quotes">Favorite Quotes</a><br />
+            <a href="training">Training</a>;<br />
+            <a href="wordswordswords">For Love of Words</a><br />
+            <a href="successfailure">Success/Failure: Day/Night</a><br />
+            <a href="allenginsberg">Allen Ginsberg</a>.`<br />
+            <a href="beyondwords">Beyond Words</a><br />
+            <a href="links">Moving Along and Linking</a><br />
+          </div>
+        </div>
 
         <section id="front2">
           <div class="front2bg">
