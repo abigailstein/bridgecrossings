@@ -152,14 +152,14 @@
         </aside>  <!-- /#sidebar-first -->
       <?php endif; ?>
 
-      <section<?php print $content_column_class; ?>>
-      <div class="col-xs-12 col-sm-12 col-md-12 hidden-lg hidden-xl">
+      <section class="frontbg" <?php print $content_column_class; ?>>
+      <div class="frontbg col-xs-12 col-sm-12 col-md-12 hidden-lg hidden-xl">
         <header class="frontheader">
           <div class="container">
           </div>
         </header>
       </div>
-      <div class="hidden-xs hidden-sm hidden-md col-lg-12 col-xl-12">
+      <div class="frontbg hidden-xs hidden-sm hidden-md col-lg-12 col-xl-12">
         <header class="frontheader">
           <div class="container">
           </div>

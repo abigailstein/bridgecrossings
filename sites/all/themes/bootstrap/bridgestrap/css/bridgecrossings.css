@@ -8,6 +8,11 @@
 
 /*DRUPAL PAGE*/
 
+.frontbg {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 /* fix for admin toolbar incompatibility with jquery 1.7+ */
 
 /*.navbar-fixed-top {
@@ -40,10 +45,10 @@ header {
 
 /*small*/
 .frontheader {
-  background-image: url('../images/penwriting768.jpg');
+  background-image: url('../images/penwriting400.jpg');
   background-size: cover;
   background-position: center center;
-  height: 400px;
+  height: 343px;
 }
 
 .interiorheader {

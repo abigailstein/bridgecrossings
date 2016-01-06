@@ -92,7 +92,13 @@
 
   <?php if ($display_submitted): ?>
     <div class="submitted">
-      <?php print $submitted; ?>
+      <?php 
+        $subexp = explode(" on ",$submitted);
+        if (!empty($subexp[0])) {
+          $byline = $subexp[0]; 
+          print $byline;
+        }
+      ?>
     </div>
   <?php endif; ?>
 
