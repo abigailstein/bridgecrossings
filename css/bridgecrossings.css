@@ -246,6 +246,27 @@ h4 {
   height: 100%;
 }
 
+.poem-sm{
+  text-align: center;
+  /*margin: 15px;*/
+  margin-left: 0px;
+  border-radius: 4px;
+  background-color: white;
+  background-image: url('../images/bkbridgecrop.jpg');
+  background-size: cover;
+  /*padding: 10px;*/
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  height: 100%;
+  /*text-shadow: 0px 0px 3px #000;*/
+  text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
+}
+
+.poem-td-sm {
+}
+
 .quotes {
   padding-top: 15px;
 }

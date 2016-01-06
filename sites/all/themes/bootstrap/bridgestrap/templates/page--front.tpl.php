@@ -333,11 +333,81 @@
         </div>
 
         <section id="front2">
+          <div class="hidden-xs hidden-sm col-md-12 col-lg-12 col-xl-12">
+            <div class="front2bg">
+              <div class="row">
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                </div>
+                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+                  <table class="fronttable2">
+                    <tr>
+                      <td class="about-td">
+                        <div class="row">
+                          <div class="row1">
+                            <b>What We Do</b><br>
+                            We find guidance and inspiration from poetry and literature
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="row2">
+                            <b>Why We Do It</b><br>
+                            We hear our own voices and see ourselves and find release and healing in poetry.
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="row3">
+                            <b>bridgeXngs Poetry Center</b> is dedicated to the therapeutic value of poetry and literature. The Director is a retired School Psychologist, a registered Poetry Therapist approved as a Mentor/Supervisor by The National Association for Poetry Therapy (NAPT), a New York State Licensed Educator, a Certified Alcohol and Substance Abuse Counselor. She has literary, photography and art projects in progress. In order to experience poetry therapy first hand or for information on presentations, courses, poetry circles and training opportunities with Lila for certification or registration as a poetry therapist, contact Lila at bridgeXngs@aol.com.
+                          </div>
+                        </div>
+                      </td>
+                      <td class="poem-td poem">
+                        Faith- is the Pierless Bridge<br>
+                        Supporting what We see<br>
+                        Unto the Scene that We do not-<br>
+                        Too slender for the eye<br>
+                        <br>
+                        It bears the Soul as bold<br>
+                        As it were rocked in Steel<br>
+                        With Arms of Steel at either side-<br>
+                        It joins- behind the Veil<br>
+                        <br>
+                        To what, could We presume<br>
+                        The Bridge would cease to be<br>
+                        To Our far, vacillating Feet<br>
+                        A first Necessity.<br><br>
+                        -Emily Dickinson
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 hidden-md hidden-lg hidden-xl">
           <div class="front2bg">
             <div class="row">
               <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
               </div>
               <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+                <br><br><br><div class="poem-td-sm poem-sm">
+                  Faith- is the Pierless Bridge<br>
+                  Supporting what We see<br>
+                  Unto the Scene that We do not-<br>
+                  Too slender for the eye<br>
+                  <br>
+                  It bears the Soul as bold<br>
+                  As it were rocked in Steel<br>
+                  With Arms of Steel at either side-<br>
+                  It joins- behind the Veil<br>
+                  <br>
+                  To what, could We presume<br>
+                  The Bridge would cease to be<br>
+                  To Our far, vacillating Feet<br>
+                  A first Necessity.<br><br>
+                  -Emily Dickinson
+                </div>
                 <table class="fronttable2">
                   <tr>
                     <td class="about-td">
@@ -359,23 +429,6 @@
                         </div>
                       </div>
                     </td>
-                    <td class="poem-td poem">
-                      Faith- is the Pierless Bridge<br>
-                      Supporting what We see<br>
-                      Unto the Scene that We do not-<br>
-                      Too slender for the eye<br>
-                      <br>
-                      It bears the Soul as bold<br>
-                      As it were rocked in Steel<br>
-                      With Arms of Steel at either side-<br>
-                      It joins- behind the Veil<br>
-                      <br>
-                      To what, could We presume<br>
-                      The Bridge would cease to be<br>
-                      To Our far, vacillating Feet<br>
-                      A first Necessity.<br><br>
-                      -Emily Dickinson
-                    </td>
                   </tr>
                 </table>
               </div>
@@ -383,6 +436,7 @@
               </div>
             </div>
           </div>
+        </div>
         </section>
 
       </section>
