@@ -102,6 +102,9 @@
     </div>
   <?php endif; ?>
 
+  <!-- Go to www.addthis.com/dashboard to customize your tools -->
+  <div class="addthis_sharing_toolbox"></div>
+
   <div class="content"<?php print $content_attributes; ?>>
     <?php
       // We hide the comments and links now so that we can render them later.

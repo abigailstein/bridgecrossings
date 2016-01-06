@@ -204,6 +204,7 @@ h2 {
 h3 {
   font-family: 'Merriweather', serif;
   font-size: 14px;
+  margin-bottom: 0px;
 }
 
 h4 {
@@ -367,9 +368,9 @@ h4 {
 #mainwrapper {
   font: 10pt 'Lato', sans-serif;
   height: 162px;
-  /*margin: 0 auto;*/
   text-align: center;
   width: 348px;
+  margin: 0 auto;
 }
 
 #mainwrapper .box {
