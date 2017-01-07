@@ -9,6 +9,15 @@
 
 /*DRUPAL PAGE*/
 
+/* bc is the standard bridgecrossings article style, must be specified in article's body content */
+
+.bc {
+  background-color: #D3B2EA;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  padding: 30px;
+}
+
 .front-featured-links {
   margin-top: 40px;
   margin-bottom: 40px;

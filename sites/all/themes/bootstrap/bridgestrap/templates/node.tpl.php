@@ -95,7 +95,7 @@
       <?php 
         $subexp = explode(" on ",$submitted);
         if (!empty($subexp[0])) {
-          $byline = $subexp[0]; 
+          $byline = strip_tags($subexp[0]); 
           print $byline;
         }
       ?>
