@@ -292,49 +292,44 @@
               <br>
               <div class="text">
                 Lila Weisberger is the founder of bridgeXngs POETRY CENTER,INC. and the International Academy for Poetry Therapy. She is an award winning Poetry Therapist and continues to accept trainees who wish to become Poetry Therapy Practitioners and those with the credentials to be Mentors. She does short term poetry or creative arts therapy.<br><br>
+            </div>
+          </div>
+          <div class="hidden-xs hidden-sm hidden-md col-lg-12 col-xl-12">
+            <table class="fronttable">
+              <tr>
+                <td class="tdpic">
+                  <div class="pic">
+                    <img src="sites/all/themes/bootstrap/bridgestrap/images/about3.jpg">
+                  </div>
+                </td>
+                <td class="tdtext">
+                  <div class="text">
+                    Lila Weisberger is the founder of bridgeXngs POETRY CENTER,INC. and the International Academy for Poetry Therapy. She is an award winning Poetry Therapist and continues to accept trainees who wish to become Poetry Therapy Practitioners and those with the credentials to be Mentors. She does short term poetry or creative arts therapy.
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
 
+          <!-- FOURTH ROW -->
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 hidden-lg hidden-xl">
+              <br>
+              <div class="pic">
+                <img src="sites/all/themes/bootstrap/bridgestrap/images/about1.png">
+              </div>
+              <br>
+              <div class="text">
                 She is now in the late autumn of her life and works only with those people who are highly motivated and dedicated to reach the goal they have set for themselves. She works with long-distance trainees as well as those who are able to come to Manhattan or Long Island, New York.<br><br>
-
-                The work Lila does in the field of Poetry therapy is diverse and her experience is wide. She works as a mentor, workshop developer, consultant for poem selection for a special event or project, assistance in organizing a book or project.<br><br>
-
-                She is licensed as a New York State Creative Arts Therapist, and her credentials include New York  State  educator, School Psychologist,  POETRY Therapy Practitioner, Mentor, New York state, drug and alcohol counselor emeritus.  She is also the coeditor of the text <i>The Healing Fountain: Poetry Therapy for Life's Journey</i>, which is required reading for those in training.<br><br>
-
-                Currently she is working with trainees, writing her memoir, writing guidebooks, essays and poetry. Two applications are currently being evaluated from outside entities for grants through her organization.<br><br>
-
-                She is always immersed in reading and studying poetry therapy and literature. For 14 years she has had weeklong Poetry therapy intensives "ACTIONWEEK" and monthly Poetry peer groups.<br><br>
-
-                Lila's work has been highly praised and she looks forward to hearing from you and working with you in anyway that would be helpful.<br><br>
-
-                <center>She lives by this quote from Gibran:<br>
-                "WORK IS LOVE MADE VISIBLE"</center>
               </div>
             </div>
-            <div class="hidden-xs hidden-sm hidden-md col-lg-12 col-xl-12">
-              <table class="fronttable">
-                <tr>
-                  <td class="tdpic">
-                    <div class="pic">
-                      <img src="sites/all/themes/bootstrap/bridgestrap/images/about3.jpg">
-                    </div>
-                  </td>
-                  <td class="tdtext">
-                    <div class="text">
-                      Lila Weisberger is the founder of bridgeXngs POETRY CENTER,INC. and the International Academy for Poetry Therapy. She is an award winning Poetry Therapist and continues to accept trainees who wish to become Poetry Therapy Practitioners and those with the credentials to be Mentors. She does short term poetry or creative arts therapy.
-                    </div>
-                  </td>
-                </tr>
-              </table>
-            </div>
-
-
             <div class="hidden-xs hidden-sm hidden-md col-lg-12 col-xl-12">
               <table class="fronttable">
                 <tr>
                   <td class="tdtext">
                     <div class="text">
                       She is now in the late autumn of her life and works only with those people who are highly motivated and dedicated to reach the goal they have set for themselves. She works with long-distance trainees as well as those who are able to come to Manhattan or Long Island, New York.<br><br>
-
-                      The work Lila does in the field of Poetry therapy is diverse and her experience is wide. She works as a mentor, workshop developer, consultant for poem selection for a special event or project, assistance in organizing a book or project.
                     </div>
                   </td>
                   <td class="tdpic">
@@ -345,7 +340,20 @@
                 </tr>
               </table>
             </div>
+          </div>
 
+          <!-- FIFTH ROW -->
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 hidden-lg hidden-xl">
+              <br>
+              <div class="pic">
+                <img src="sites/all/themes/bootstrap/bridgestrap/images/about5.jpg" width="300px" height="224px">
+              </div>
+              <br>
+              <div class="text">
+                The work Lila does in the field of Poetry therapy is diverse and her experience is wide. She works as a mentor, workshop developer, consultant for poem selection for a special event or project, assistance in organizing a book or project.<br><br>
+              </div>
+            </div>
             <div class="hidden-xs hidden-sm hidden-md col-lg-12 col-xl-12">
               <table class="fronttable">
                 <tr>
@@ -356,35 +364,58 @@
                   </td>
                   <td class="tdtext">
                     <div class="text">
-                      She is licensed as a New York State Creative Arts Therapist, and her credentials include New York  State  educator, School Psychologist,  POETRY Therapy Practitioner, Mentor, New York state, drug and alcohol counselor emeritus.  She is also the coeditor of the text "The Healing Fountain: Poetry Therapy for Life's Journey, which is required reading for those in training.
+                      The work Lila does in the field of Poetry therapy is diverse and her experience is wide. She works as a mentor, workshop developer, consultant for poem selection for a special event or project, assistance in organizing a book or project.
                     </div>
                   </td>
                 </tr>
               </table>
             </div>
+          </div>
 
-
+          <!-- SIXTH ROW -->
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 hidden-lg hidden-xl">
+              <br>
+              <div class="pic">
+                <img src="sites/all/themes/bootstrap/bridgestrap/images/about7.jpg" width="300px" height="224px">
+              </div>
+              <br>
+              <div class="text">
+                She is licensed as a New York State Creative Arts Therapist, and her credentials include New York  State  educator, School Psychologist,  POETRY Therapy Practitioner, Mentor, New York state, drug and alcohol counselor emeritus.  She is also the coeditor of the text <i>The Healing Fountain: Poetry Therapy for Life's Journey</i>, which is required reading for those in training.<br><br>
+              </div>
+            </div>
             <div class="hidden-xs hidden-sm hidden-md col-lg-12 col-xl-12">
               <table class="fronttable">
                 <tr>
                   <td class="tdtext">
                     <div class="text">
-                      Currently she is working with trainees, writing her memoir, writing guidebooks, essays and poetry. Two applications are currently being evaluated from outside entities for grants through her organization.<br><br>
-
-                      She is always immersed in reading and studying poetry therapy and literature. For 14 years she has had weeklong Poetry therapy intensives "ACTIONWEEK" and monthly Poetry peer groups.
+                      She is licensed as a New York State Creative Arts Therapist, and her credentials include New York  State  educator, School Psychologist, POETRY Therapy Practitioner, Mentor, New York state, drug and alcohol counselor emeritus.  She is also the coeditor of the text "The Healing Fountain: Poetry Therapy for Life's Journey, which is required reading for those in training.
                     </div>
                   </td>
                   <td class="tdpic">
                     <div class="pic">
-                      <img src="sites/all/themes/bootstrap/bridgestrap/images/about4.jpg" width="300px" height="224px">
+                      <img src="sites/all/themes/bootstrap/bridgestrap/images/about7.jpg" width="300px" height="224px">
                     </div>
                   </td>
                 </tr>
               </table>
             </div>
+          </div>
 
+          <!-- SEVENTH ROW -->
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 hidden-lg hidden-xl">
+              <br>
+              <div class="pic">
+                <img src="sites/all/themes/bootstrap/bridgestrap/images/about6.jpg" width="300px" height="224px">
+              </div>
+              <br>
+              <div class="text">
+                Currently she is working with trainees, writing her memoir, writing guidebooks, essays and poetry. Two applications are currently being evaluated from outside entities for grants through her organization.<br><br>
 
-
+                She is always immersed in reading and studying poetry therapy and literature. For 14 years she has had weeklong Poetry therapy intensives "ACTIONWEEK" and monthly Poetry peer groups.<br><br>
+              </div>
+            </div>
             <div class="hidden-xs hidden-sm hidden-md col-lg-12 col-xl-12">
               <table class="fronttable">
                 <tr>
@@ -395,10 +426,45 @@
                   </td>
                   <td class="tdtext">
                     <div class="text">
-                      Lila's work has been highly praised and she looks forward to hearing from you and working with you in anyway that would be helpful.<br><br>
+                      Currently she is working with trainees, writing her memoir, writing guidebooks, essays and poetry. Two applications are currently being evaluated from outside entities for grants through her organization.<br><br>
+
+                      She is always immersed in reading and studying poetry therapy and literature. For 14 years she has had weeklong Poetry therapy intensives "ACTIONWEEK" and monthly Poetry peer groups.
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <!-- EIGHTH ROW -->
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 hidden-lg hidden-xl">
+              <br>
+              <div class="pic">
+                <img src="sites/all/themes/bootstrap/bridgestrap/images/about4.jpg" width="300px" height="224px">
+              </div>
+              <br>
+              <div class="text">
+                Lila's work has been highly praised and she looks forward to hearing from you and working with you in anyway that would be helpful. For any further information, you can contact Lila at bridgeXngs@aol.com.<br><br>
+
+                <center>She lives by this quote from Gibran:<br>
+                "WORK IS LOVE MADE VISIBLE"</center>
+              </div>
+            </div>
+            <div class="hidden-xs hidden-sm hidden-md col-lg-12 col-xl-12">
+              <table class="fronttable">
+                <tr>
+                  <td class="tdtext">
+                    <div class="text">
+                      Lila's work has been highly praised and she looks forward to hearing from you and working with you in anyway that would be helpful. For any further information, you can contact Lila at bridgeXngs@aol.com.<br><br>
 
                       <center>She lives by this quote from Gibran:<br>
                       "WORK IS LOVE MADE VISIBLE"</center>
+                    </div>
+                  </td>
+                  <td class="tdpic">
+                    <div class="pic">
+                      <img src="sites/all/themes/bootstrap/bridgestrap/images/about4.jpg" width="300px" height="224px">
                     </div>
                   </td>
                 </tr>
@@ -433,7 +499,7 @@
                 <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
                 </div>
                 <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-xl-8">
-                  <table class="fronttable2">
+                  <table class="fronttable3">
                     <tr>
                       <td class="about-td">
                         <div class="row">
@@ -450,7 +516,7 @@
                         </div>
                         <div class="row">
                           <div class="row3">
-                            <b>bridgeXngs Poetry Center</b> is dedicated to the therapeutic value of poetry and literature. The Director is a retired School Psychologist, a registered Poetry Therapist approved as a Mentor/Supervisor by The National Association for Poetry Therapy (NAPT), a New York State Licensed Educator, a Certified Alcohol and Substance Abuse Counselor (Emeritus). She has literary, photography and art projects in progress. In order to experience poetry therapy first hand or for information on presentations, courses, poetry circles and training opportunities with Lila for certification or registration as a poetry therapist, contact Lila at bridgeXngs@aol.com.
+                            <b>bridgeXngs Poetry Center</b> is dedicated to the therapeutic value of poetry and literature. The Director was a past President of The National Association for Poetry Therapy (NAPT) and had been approved as a registered Poetry Therapist and Mentor/Supervisor. Subsequently she left that organization to create a new credentialing body for poetry therapy called the International Academy for Poetry Therapy (iaPOETRY.org). She is also a retired School Psychologist, a New York State Licensed Educator, and a Certified Alcohol and Substance Abuse Counselor (Emeritus). She has literary, photography and art projects in progress. In order to experience poetry therapy first hand or for information on presentations, courses, poetry circles, and training opportunities with Lila for certification or registration as a poetry therapist, contact Lila at bridgeXngs@aol.com.
                           </div>
                         </div>
                       </td>
@@ -485,6 +551,8 @@
               <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
               </div>
               <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+                <table class="fronttable3">
+                <td>
                 <br><br><br><div class="poem-td-sm poem-sm">
                   Faith- is the Pierless Bridge<br>
                   Supporting what We see<br>
@@ -502,6 +570,8 @@
                   A first Necessity.<br><br>
                   -Emily Dickinson
                 </div>
+              </td>
+              </table>
                 <table class="fronttable2">
                   <tr>
                     <td class="about-td">
@@ -519,7 +589,7 @@
                       </div>
                       <div class="row">
                         <div class="row3">
-                          <b>bridgeXngs Poetry Center</b> is dedicated to the therapeutic value of poetry and literature. The Director is a retired School Psychologist, a registered Poetry Therapist approved as a Mentor/Supervisor by The National Association for Poetry Therapy (NAPT), a New York State Licensed Educator, a Certified Alcohol and Substance Abuse Counselor (Emeritus). She has literary, photography and art projects in progress. In order to experience poetry therapy first hand or for information on presentations, courses, poetry circles and training opportunities with Lila for certification or registration as a poetry therapist, contact Lila at bridgeXngs@aol.com.
+                          <b>bridgeXngs Poetry Center</b> is dedicated to the therapeutic value of poetry and literature. The Director was a past President of The National Association for Poetry Therapy (NAPT) and had been approved as a registered Poetry Therapist and Mentor/Supervisor. Subsequently she left that organization to create a new credentialing body for poetry therapy called the International Academy for Poetry Therapy (iaPOETRY.org). She is also a retired School Psychologist, a New York State Licensed Educator, and a Certified Alcohol and Substance Abuse Counselor (Emeritus). She has literary, photography and art projects in progress. In order to experience poetry therapy first hand or for information on presentations, courses, poetry circles, and training opportunities with Lila for certification or registration as a poetry therapist, contact Lila at bridgeXngs@aol.com.
                         </div>
                       </div>
                     </td>
