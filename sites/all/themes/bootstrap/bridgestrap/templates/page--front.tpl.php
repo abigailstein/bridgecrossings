@@ -102,6 +102,15 @@
             <li>
               <a class="page-scroll" href="moreabout">About Lila Weisberger</a>
             </li>
+            <li>
+              <a class"page-scroll" href="tributes">Tributes</a>
+            </li>
+            <li>
+              <a class"page-scroll" href="personalponderings">Personal Ponderings</a>
+            </li>
+            <li>
+              <a class"page-scroll" href="happenings">Happenings</a>
+            </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" type="button" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">
                 Links
@@ -120,7 +129,6 @@
                   <!-- <li><a href="">Lila's Poem of the Month Selection</a></li> -->
                   <li><a href="allenginsberg">Allen Ginsberg</a></li>
                   <li><a href="beyondwords">Beyond Words</a></li>
-                  <li><a href="links">Moving Along and Linking</a></li>
                 </ul>
               </li>
             </ul>
@@ -205,8 +213,7 @@
             <a href="wordswordswords">For Love of Words</a> &#8226;
             <a href="successfailure">Success/Failure: Day/Night</a> &#8226;
             <a href="allenginsberg">Allen Ginsberg</a> &#8226;
-            <a href="beyondwords">Beyond Words</a> &#8226;
-            <a href="links">Moving Along and Linking</a>
+            <a href="beyondwords">Beyond Words</a>
           </div>
 
           <!-- FIRST ROW -->
@@ -475,7 +482,6 @@
             <a href="successfailure">Success/Failure: Day/Night</a><br />
             <a href="allenginsberg">Allen Ginsberg</a>.`<br />
             <a href="beyondwords">Beyond Words</a><br />
-            <a href="links">Moving Along and Linking</a><br />
           </div>
         </div>
 

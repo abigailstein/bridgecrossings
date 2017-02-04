@@ -102,6 +102,15 @@
               <li>
                 <a class="page-scroll" href="moreabout">About Lila Weisberger</a>
               </li>
+              <li>
+                <a class"page-scroll" href="tributes">Tributes</a>
+              </li>
+              <li>
+                <a class"page-scroll" href="personalponderings">Personal Ponderings</a>
+              </li>
+              <li>
+                <a class"page-scroll" href="happenings">Happenings</a>
+              </li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" type="button" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                   Links
@@ -120,7 +129,6 @@
                     <!-- <li><a href="">Lila's Poem of the Month Selection</a></li> -->
                     <li><a href="allenginsberg">Allen Ginsberg</a></li>
                     <li><a href="beyondwords">Beyond Words</a></li>
-                    <li><a href="links">Moving Along and Linking</a></li>
                   </ul>
                 </li>
             </ul>
