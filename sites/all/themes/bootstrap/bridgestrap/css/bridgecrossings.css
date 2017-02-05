@@ -18,6 +18,10 @@
   padding: 30px;
 }
 
+.field-type-image {
+  text-align:center;
+}
+
 .front-featured-links {
   margin-top: 40px;
   margin-bottom: 40px;

@@ -81,7 +81,7 @@
  */
 ?>
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
-
+  <div class="bc">
   <?php print $user_picture; ?>
 
   <?php print render($title_prefix); ?>
@@ -92,10 +92,10 @@
 
   <?php if ($display_submitted): ?>
     <div class="submitted">
-      <?php 
+      <?php
         $subexp = explode(" on ",$submitted);
         if (!empty($subexp[0])) {
-          $byline = strip_tags($subexp[0]); 
+          $byline = strip_tags($subexp[0]);
           print $byline;
         }
       ?>
@@ -117,5 +117,5 @@
   <?php print render($content['links']); ?>
 
   <?php print render($content['comments']); ?>
-
+  </div>
 </div>
