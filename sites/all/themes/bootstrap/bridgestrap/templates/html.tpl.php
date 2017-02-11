@@ -57,6 +57,21 @@
   <!--[if lt IE 9]>
   <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
+  <?php if ($is_front) {
+    ?>
+    <meta property="og:site_name" content="Bridge Crossings Poetry Center" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://bridgecrossings.org" />
+    <meta property="og:title" content="We are an international community of poets, writers, poetry therapists, teachers, lovers of the word, and readers." />
+    <meta property="og:description" content="Bridge Crossings Poetry Center is dedicated to the therapeutic value of poetry and literature." />
+    <meta property="og:updated_time" content="2017-02-11T11:46:47-05:00" />
+    <meta property="og:image" content="http://bridgecrossings.org/sites/all/themes/bootstrap/bridgestrap/images/bcFront.png" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:url" content="http://bridgecrossings.org" />
+    <meta name="twitter:title" content="We are an international community of poets, writers, poetry therapists, teachers, lovers of the word, and readers." />
+    <?php
+  }
+  ?>
   <?php print $scripts; ?>
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
